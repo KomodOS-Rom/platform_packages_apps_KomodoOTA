@@ -73,8 +73,6 @@
     <string name="menu_delete_update">Delete</string>
     <string name="menu_copy_url">Copy URL</string>
     <string name="menu_export_update">Export update</string>
-    <string name="menu_show_changelog">Show changelog</string>
-    <string name="menu_changelog_url" translatable="false">https://download.lineageos.org/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
     <string name="menu_ab_perf_mode">Prioritize update process</string>
 
     <string name="snack_updates_found">New updates found</string>
@@ -148,4 +146,20 @@
     <string name="new_updates_channel_title">New updates</string>
     <string name="ongoing_channel_title">Ongoing downloads</string>
     <string name="update_failed_channel_title">Update failed</string>
+
+    <!-- New Headers info -->
+    <string name="header_updates_no_update">You\'re up to date</string>
+    <string name="header_updates_new_build">There\'s a new update</string>
+
+    <!-- Strings for update card -->
+    <string name="update_title">New update</string>
+    <string name="update_summary" translatable="false">%1$s %2$s</string>
+    <string name="update_button_changelog">Changelog</string>
+    <string name="update_new_release">A new update came for your %s!</string>
+    <string name="update_new_release_small">Check the new improvements and changes that this build brings or download it right now.</string>
+    <string name="update_new_release_big">Check the new stuff that\'s waiting for you or download this new release right now.</string>
+
+    <!-- changelog -->
+    <string name="changelog_url" translatable="false">https://github.com/KomodOS-Rom/OTA/raw/master/changelog/<xliff:g id="device_name">%1$s</xliff:g>.md</string>
+    <string name="changelog_fail">Failed to retrieve changelog</string>
 </resources>
