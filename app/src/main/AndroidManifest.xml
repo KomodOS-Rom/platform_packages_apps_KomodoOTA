@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xenonota"
+    package="com.komodoota"
     android:versionCode="9"
     android:versionName="9.0.0">
 
