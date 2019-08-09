@@ -221,23 +221,9 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         viewHolder.mProgressBar.setVisibility(View.INVISIBLE);
         viewHolder.mProgressText.setVisibility(View.INVISIBLE);
         viewHolder.mBuildSize.setVisibility(View.VISIBLE);
-<<<<<<< HEAD:src/org/komodo/updater/UpdatesListAdapter.java
-=======
-        viewHolder.mBuildVersion.setVisibility(View.GONE);
-        viewHolder.mBuildSummary.setText(mActivity.getString(
-                        R.string.update_summary, mActivity.getString(
-                        R.string.update_new_release, SystemProperties.get(Constants.PROP_DEVICE)), mActivity.getString(
-                        R.string.update_new_release_small)));
-        /**if (Utils.isBigRelease()) {
-            viewHolder.mBuildVersion.setVisibility(View.VISIBLE);
-            viewHolder.mBuildVersion.setText(Utils.getReleaseVersion(update.getName()));
-        } else {
-            viewHolder.mBuildVersion.setVisibility(View.GONE)
-        }**/
 
         // changelog button
         setButtonAction(viewHolder.mChangelog, Action.CHANGELOG, downloadId, true);
->>>>>>> bda7401... Updater: add changelog dialog:src/com/bootleggers/shishuota/UpdatesListAdapter.java
     }
 
     @Override

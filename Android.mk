@@ -29,7 +29,7 @@ include $(BUILD_PACKAGE)
 
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := UpdaterStudio
+LOCAL_MODULE := KomodoOTAStudio
 LOCAL_MODULE_CLASS := FAKE
 LOCAL_MODULE_SUFFIX := -timestamp
 updater_system_deps := $(call java-lib-deps,framework)
